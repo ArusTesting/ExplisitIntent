@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity5">
+
+    <RadioGroup
+        android:id="@+id/rgItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdLaptop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laptop" />
+
+        <RadioButton
+            android:id="@+id/rdMouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mouse" />
+
+        <RadioButton
+            android:id="@+id/rdKeyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keyboard" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Pilih Item favorit Anda"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konfirmasi Pilihan" />
+
+</LinearLayout>
